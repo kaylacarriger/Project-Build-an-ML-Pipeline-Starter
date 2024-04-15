@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kayla/Project-Build-an-ML-Pipeline-Starter/mlruns/0/1436f94ed9af4018b868ab060b0b047d/artifacts
+end_time: 1713198745633
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1436f94ed9af4018b868ab060b0b047d
+run_name: casual-hare-427
+run_uuid: 1436f94ed9af4018b868ab060b0b047d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713198727043
+status: 3
+tags: []
+user_id: kayla

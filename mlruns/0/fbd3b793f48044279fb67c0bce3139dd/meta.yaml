@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kayla/Project-Build-an-ML-Pipeline-Starter/mlruns/0/fbd3b793f48044279fb67c0bce3139dd/artifacts
+end_time: 1713199021828
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fbd3b793f48044279fb67c0bce3139dd
+run_name: overjoyed-grub-205
+run_uuid: fbd3b793f48044279fb67c0bce3139dd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713198782531
+status: 3
+tags: []
+user_id: kayla
