@@ -1,0 +1,104 @@
+{
+    "os": "Linux-5.15.146.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.9.15",
+    "heartbeatAt": "2024-04-03T19:11:51.506875",
+    "startedAt": "2024-04-03T19:11:51.010410",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "src/eda/eda.ipynb",
+    "root": "/home/kayla/Project-Build-an-ML-Pipeline-Starter",
+    "git": {
+        "remote": "https://github.com/kaylacarriger/Project-Build-an-ML-Pipeline-Starter.git",
+        "commit": "077621b0ed54d88e8c2f5ef3dea7b725c4ea7c98"
+    },
+    "email": null,
+    "host": "Ardat-Yakshi",
+    "username": "kayla",
+    "executable": "/home/kayla/miniconda3/envs/mlops/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 3293.724999999999,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3293.725,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3293.725,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3293.725,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3293.725,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3293.725,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3293.725,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3293.725,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3293.725,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3293.725,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3293.725,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3293.725,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3293.725,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "total": 1006.853931427002,
+        "used": 12.122268676757812
+    },
+    "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 13.501205444335938
+    }
+}

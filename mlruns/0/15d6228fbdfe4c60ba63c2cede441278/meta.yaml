@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kayla/Project-Build-an-ML-Pipeline-Starter/mlruns/0/15d6228fbdfe4c60ba63c2cede441278/artifacts
+end_time: 1712954874539
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 15d6228fbdfe4c60ba63c2cede441278
+run_name: puzzled-hare-130
+run_uuid: 15d6228fbdfe4c60ba63c2cede441278
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712954843790
+status: 4
+tags: []
+user_id: kayla

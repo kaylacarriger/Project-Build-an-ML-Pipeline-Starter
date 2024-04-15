@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kayla/Project-Build-an-ML-Pipeline-Starter/mlruns/0/9cb096df984e4df08b1057997caef527/artifacts
+end_time: 1713196869216
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9cb096df984e4df08b1057997caef527
+run_name: silent-vole-339
+run_uuid: 9cb096df984e4df08b1057997caef527
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713196725671
+status: 3
+tags: []
+user_id: kayla

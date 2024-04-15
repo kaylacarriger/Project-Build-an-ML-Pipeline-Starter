@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kayla/Project-Build-an-ML-Pipeline-Starter/mlruns/0/3dd5ac31269041c3848787cf74eac0aa/artifacts
+end_time: 1712171088217
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3dd5ac31269041c3848787cf74eac0aa
+run_name: enchanting-toad-310
+run_uuid: 3dd5ac31269041c3848787cf74eac0aa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712171087244
+status: 4
+tags: []
+user_id: kayla

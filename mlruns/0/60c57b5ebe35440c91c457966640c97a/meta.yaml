@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kayla/Project-Build-an-ML-Pipeline-Starter/mlruns/0/60c57b5ebe35440c91c457966640c97a/artifacts
+end_time: 1712173830230
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 60c57b5ebe35440c91c457966640c97a
+run_name: judicious-flea-454
+run_uuid: 60c57b5ebe35440c91c457966640c97a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712173723610
+status: 3
+tags: []
+user_id: kayla

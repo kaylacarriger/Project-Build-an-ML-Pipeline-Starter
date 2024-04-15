@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kayla/Project-Build-an-ML-Pipeline-Starter/mlruns/0/e1cf6b0432be4ea8adf58338901f6546/artifacts
+end_time: 1712953539515
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e1cf6b0432be4ea8adf58338901f6546
+run_name: bold-sloth-595
+run_uuid: e1cf6b0432be4ea8adf58338901f6546
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712953509297
+status: 4
+tags: []
+user_id: kayla

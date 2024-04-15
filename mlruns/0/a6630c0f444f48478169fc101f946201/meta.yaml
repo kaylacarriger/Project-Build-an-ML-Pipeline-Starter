@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kayla/Project-Build-an-ML-Pipeline-Starter/mlruns/0/a6630c0f444f48478169fc101f946201/artifacts
+end_time: 1712956494025
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a6630c0f444f48478169fc101f946201
+run_name: abrasive-bird-851
+run_uuid: a6630c0f444f48478169fc101f946201
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712956489414
+status: 4
+tags: []
+user_id: kayla

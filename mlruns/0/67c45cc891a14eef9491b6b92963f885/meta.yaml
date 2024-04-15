@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kayla/Project-Build-an-ML-Pipeline-Starter/mlruns/0/67c45cc891a14eef9491b6b92963f885/artifacts
+end_time: 1712958362894
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 67c45cc891a14eef9491b6b92963f885
+run_name: mysterious-shad-925
+run_uuid: 67c45cc891a14eef9491b6b92963f885
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712958332894
+status: 4
+tags: []
+user_id: kayla

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kayla/Project-Build-an-ML-Pipeline-Starter/mlruns/0/aac5905ed6cc4ec2ab85cc781fadf464/artifacts
+end_time: 1712953999449
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: aac5905ed6cc4ec2ab85cc781fadf464
+run_name: respected-skunk-523
+run_uuid: aac5905ed6cc4ec2ab85cc781fadf464
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712953968313
+status: 4
+tags: []
+user_id: kayla

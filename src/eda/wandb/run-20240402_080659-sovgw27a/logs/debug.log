@@ -1,0 +1,28 @@
+2024-04-02 08:06:59,792 INFO    MainThread:2991 [wandb_setup.py:_flush():68] Configure stats pid to 2991
+2024-04-02 08:06:59,793 INFO    MainThread:2991 [wandb_setup.py:_flush():68] Loading settings from /home/kayla/.config/wandb/settings
+2024-04-02 08:06:59,793 INFO    MainThread:2991 [wandb_setup.py:_flush():68] Loading settings from /home/kayla/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/settings
+2024-04-02 08:06:59,793 INFO    MainThread:2991 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2024-04-02 08:06:59,793 INFO    MainThread:2991 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-04-02 08:06:59,793 INFO    MainThread:2991 [wandb_init.py:_log_setup():478] Logging user logs to /home/kayla/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240402_080659-sovgw27a/logs/debug.log
+2024-04-02 08:06:59,793 INFO    MainThread:2991 [wandb_init.py:_log_setup():479] Logging internal logs to /home/kayla/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240402_080659-sovgw27a/logs/debug-internal.log
+2024-04-02 08:06:59,793 INFO    MainThread:2991 [wandb_init.py:_jupyter_setup():428] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f21346dcaf0>
+2024-04-02 08:06:59,793 INFO    MainThread:2991 [wandb_init.py:init():518] calling init triggers
+2024-04-02 08:06:59,793 INFO    MainThread:2991 [wandb_init.py:init():521] wandb.init called with sweep_config: {}
+config: {}
+2024-04-02 08:06:59,793 INFO    MainThread:2991 [wandb_init.py:init():571] starting backend
+2024-04-02 08:06:59,793 INFO    MainThread:2991 [wandb_init.py:init():575] setting up manager
+2024-04-02 08:06:59,796 INFO    MainThread:2991 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-04-02 08:07:00,571 INFO    MainThread:2991 [wandb_init.py:init():582] backend started and connected
+2024-04-02 08:07:00,573 INFO    MainThread:2991 [wandb_run.py:_label_probe_notebook():1202] probe notebook
+2024-04-02 08:07:00,574 INFO    MainThread:2991 [wandb_run.py:_label_probe_notebook():1212] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-04-02 08:07:00,574 INFO    MainThread:2991 [wandb_init.py:init():670] updated telemetry
+2024-04-02 08:07:00,607 INFO    MainThread:2991 [wandb_init.py:init():710] communicating run to backend with 60.0 second timeout
+2024-04-02 08:07:01,486 INFO    MainThread:2991 [wandb_run.py:_on_init():2121] communicating current version
+2024-04-02 08:07:01,784 INFO    MainThread:2991 [wandb_run.py:_on_init():2125] got version response upgrade_message: "wandb version 0.16.5 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-04-02 08:07:01,784 INFO    MainThread:2991 [wandb_init.py:init():758] starting run threads in backend
+2024-04-02 08:07:14,885 INFO    MainThread:2991 [wandb_run.py:_console_start():2101] atexit reg
+2024-04-02 08:07:14,886 INFO    MainThread:2991 [wandb_run.py:_redirect():1959] redirect: SettingsConsole.WRAP_RAW
+2024-04-02 08:07:14,886 INFO    MainThread:2991 [wandb_run.py:_redirect():2024] Wrapping output streams.
+2024-04-02 08:07:14,886 INFO    MainThread:2991 [wandb_run.py:_redirect():2046] Redirects installed.
+2024-04-02 08:07:14,888 INFO    MainThread:2991 [wandb_init.py:init():798] run started, returning control to user process

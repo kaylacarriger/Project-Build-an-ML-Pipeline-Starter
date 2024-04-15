@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kayla/Project-Build-an-ML-Pipeline-Starter/mlruns/0/9d5b6270ab6f4759af0b5ffd0c87fa9c/artifacts
+end_time: 1712066757673
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9d5b6270ab6f4759af0b5ffd0c87fa9c
+run_name: mysterious-robin-947
+run_uuid: 9d5b6270ab6f4759af0b5ffd0c87fa9c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712066657315
+status: 4
+tags: []
+user_id: kayla

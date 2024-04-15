@@ -1,0 +1,10 @@
+2024-04-12 15:21:28,496 Downloading artifact
+2024-04-12 15:21:29,930 Dropping outlier
+2024-04-12 15:21:29,943 Convert last_review columns to date
+2024-04-12 15:21:30,160 Logging artifact
+Traceback (most recent call last):
+  File "/home/kayla/Project-Build-an-ML-Pipeline-Starter/src/basic_cleaning/run.py", line 154, in <module>
+    basic_cleaning(args)
+  File "/home/kayla/Project-Build-an-ML-Pipeline-Starter/src/basic_cleaning/run.py", line 89, in basic_cleaning
+    os.remove(filename)
+NameError: name 'os' is not defined

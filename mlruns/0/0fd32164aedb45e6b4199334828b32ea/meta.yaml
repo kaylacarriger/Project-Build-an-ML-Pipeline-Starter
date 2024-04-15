@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kayla/Project-Build-an-ML-Pipeline-Starter/mlruns/0/0fd32164aedb45e6b4199334828b32ea/artifacts
+end_time: 1712173451703
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0fd32164aedb45e6b4199334828b32ea
+run_name: respected-grub-411
+run_uuid: 0fd32164aedb45e6b4199334828b32ea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712173358791
+status: 4
+tags: []
+user_id: kayla

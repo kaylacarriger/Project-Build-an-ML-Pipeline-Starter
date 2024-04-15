@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kayla/Project-Build-an-ML-Pipeline-Starter/mlruns/0/5882e0209af0417e9ad5b1189d8a6dcb/artifacts
+end_time: 1712958695881
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5882e0209af0417e9ad5b1189d8a6dcb
+run_name: serious-sow-3
+run_uuid: 5882e0209af0417e9ad5b1189d8a6dcb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712958667256
+status: 3
+tags: []
+user_id: kayla

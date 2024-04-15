@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kayla/Project-Build-an-ML-Pipeline-Starter/mlruns/0/5b303972a85e4a4f858d78f7baeb71dd/artifacts
+end_time: 1712955306868
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5b303972a85e4a4f858d78f7baeb71dd
+run_name: overjoyed-bear-22
+run_uuid: 5b303972a85e4a4f858d78f7baeb71dd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712955276131
+status: 4
+tags: []
+user_id: kayla

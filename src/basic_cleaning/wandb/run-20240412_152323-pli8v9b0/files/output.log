@@ -1,0 +1,11 @@
+2024-04-12 15:23:25,671 Downloading artifact
+2024-04-12 15:23:27,044 Dropping outlier
+2024-04-12 15:23:27,051 Convert last_review columns to date
+2024-04-12 15:23:27,252 Logging artifact
+2024-04-12 15:23:27,702 Saving and exporting cleaned data.
+Traceback (most recent call last):
+  File "/home/kayla/Project-Build-an-ML-Pipeline-Starter/src/basic_cleaning/run.py", line 155, in <module>
+    basic_cleaning(args)
+  File "/home/kayla/Project-Build-an-ML-Pipeline-Starter/src/basic_cleaning/run.py", line 96, in basic_cleaning
+    df.to_csv('clean_sample.csv', index=False)
+NameError: name 'df' is not defined

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kayla/Project-Build-an-ML-Pipeline-Starter/mlruns/0/3af8b54b5fd84f9cb59a6a8aef56f021/artifacts
+end_time: 1712171447003
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3af8b54b5fd84f9cb59a6a8aef56f021
+run_name: shivering-bee-471
+run_uuid: 3af8b54b5fd84f9cb59a6a8aef56f021
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712171279172
+status: 3
+tags: []
+user_id: kayla

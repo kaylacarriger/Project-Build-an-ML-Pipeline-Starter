@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kayla/Project-Build-an-ML-Pipeline-Starter/mlruns/0/8ac00a58bc14442189340885f478de2d/artifacts
+end_time: 1712956899238
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8ac00a58bc14442189340885f478de2d
+run_name: exultant-duck-403
+run_uuid: 8ac00a58bc14442189340885f478de2d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712956880016
+status: 4
+tags: []
+user_id: kayla

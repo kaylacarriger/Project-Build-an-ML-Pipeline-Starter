@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kayla/Project-Build-an-ML-Pipeline-Starter/mlruns/0/59871a757f0d4290802d77ba13105622/artifacts
+end_time: 1712956494447
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 59871a757f0d4290802d77ba13105622
+run_name: unleashed-wasp-835
+run_uuid: 59871a757f0d4290802d77ba13105622
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712956486996
+status: 4
+tags: []
+user_id: kayla

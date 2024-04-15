@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kayla/Project-Build-an-ML-Pipeline-Starter/mlruns/0/eb204ae9aac04795a2d05c29eeaa80f1/artifacts
+end_time: 1712957016776
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: eb204ae9aac04795a2d05c29eeaa80f1
+run_name: resilient-hound-151
+run_uuid: eb204ae9aac04795a2d05c29eeaa80f1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712956998960
+status: 4
+tags: []
+user_id: kayla

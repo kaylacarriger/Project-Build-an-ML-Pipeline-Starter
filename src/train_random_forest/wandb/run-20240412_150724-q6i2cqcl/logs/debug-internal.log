@@ -1,0 +1,298 @@
+2024-04-12 15:07:25,308 INFO    StreamThr :28086 [internal.py:wandb_internal():87] W&B internal server running at pid: 28086, started at: 2024-04-12 15:07:24.805926
+2024-04-12 15:07:25,311 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: status
+2024-04-12 15:07:25,314 INFO    WriterThread:28086 [datastore.py:open_for_write():85] open: /home/kayla/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240412_150724-q6i2cqcl/run-q6i2cqcl.wandb
+2024-04-12 15:07:25,315 DEBUG   SenderThread:28086 [sender.py:send():334] send: header
+2024-04-12 15:07:25,315 DEBUG   SenderThread:28086 [sender.py:send():334] send: run
+2024-04-12 15:07:25,543 INFO    SenderThread:28086 [dir_watcher.py:__init__():216] watching files in: /home/kayla/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240412_150724-q6i2cqcl/files
+2024-04-12 15:07:25,543 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: check_version
+2024-04-12 15:07:25,543 INFO    SenderThread:28086 [sender.py:_start_run_threads():1065] run started: q6i2cqcl with start time 1712956044.805762
+2024-04-12 15:07:25,544 DEBUG   SenderThread:28086 [sender.py:send_request():361] send_request: summary_record
+2024-04-12 15:07:25,544 INFO    SenderThread:28086 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-04-12 15:07:25,544 DEBUG   SenderThread:28086 [sender.py:send_request():361] send_request: check_version
+2024-04-12 15:07:25,607 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: run_start
+2024-04-12 15:07:26,545 INFO    Thread-13 :28086 [dir_watcher.py:_on_file_created():275] file/dir created: /home/kayla/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240412_150724-q6i2cqcl/files/wandb-summary.json
+2024-04-12 15:07:27,044 DEBUG   HandlerThread:28086 [system_info.py:__init__():31] System info init
+2024-04-12 15:07:27,045 DEBUG   HandlerThread:28086 [system_info.py:__init__():46] System info init done
+2024-04-12 15:07:27,045 INFO    HandlerThread:28086 [system_monitor.py:start():151] Starting system monitor
+2024-04-12 15:07:27,045 INFO    SystemMonitor:28086 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2024-04-12 15:07:27,045 INFO    HandlerThread:28086 [system_monitor.py:probe():172] Collecting system info
+2024-04-12 15:07:27,048 INFO    SystemMonitor:28086 [interfaces.py:start():168] Started cpu
+2024-04-12 15:07:27,049 INFO    SystemMonitor:28086 [interfaces.py:start():168] Started disk
+2024-04-12 15:07:27,051 INFO    SystemMonitor:28086 [interfaces.py:start():168] Started gpu
+2024-04-12 15:07:27,052 INFO    SystemMonitor:28086 [interfaces.py:start():168] Started memory
+2024-04-12 15:07:27,053 INFO    SystemMonitor:28086 [interfaces.py:start():168] Started network
+2024-04-12 15:07:27,074 DEBUG   HandlerThread:28086 [system_info.py:probe():195] Probing system
+2024-04-12 15:07:27,103 DEBUG   HandlerThread:28086 [system_info.py:_probe_git():180] Probing git
+2024-04-12 15:07:27,116 DEBUG   HandlerThread:28086 [system_info.py:_probe_git():188] Probing git done
+2024-04-12 15:07:27,116 DEBUG   HandlerThread:28086 [system_info.py:probe():241] Probing system done
+2024-04-12 15:07:27,116 DEBUG   HandlerThread:28086 [system_monitor.py:probe():181] {'os': 'Linux-5.15.146.1-microsoft-standard-WSL2-x86_64-with-glibc2.35', 'python': '3.9.19', 'heartbeatAt': '2024-04-12T21:07:27.074538', 'startedAt': '2024-04-12T21:07:24.795619', 'docker': None, 'cuda': None, 'args': ('--trainval_artifact', 'trainval_data.csv:latest', '--val_size', '0.2', '--random_seed', '42', '--stratify_by', 'neighbourhood_group', '--rf_config', '/home/kayla/Project-Build-an-ML-Pipeline-Starter/multirun/2024-04-12/15-05-12/3/rf_config.json', '--max_tfidf_features', '5', '--output_artifact', 'random_forest_export'), 'state': 'running', 'program': '/home/kayla/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py', 'codePath': 'src/train_random_forest/run.py', 'git': {'remote': 'https://github.com/kaylacarriger/Project-Build-an-ML-Pipeline-Starter.git', 'commit': '077621b0ed54d88e8c2f5ef3dea7b725c4ea7c98'}, 'email': None, 'root': '/home/kayla/Project-Build-an-ML-Pipeline-Starter', 'host': 'Ardat-Yakshi', 'username': 'kayla', 'executable': '/home/kayla/miniconda3/envs/mlflow-d6c04384fb9356865b6d231fc3cbd1b1b9b4863e/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 3293.7180000000003, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 3293.718, 'min': 0.0, 'max': 0.0}, {'current': 3293.718, 'min': 0.0, 'max': 0.0}, {'current': 3293.718, 'min': 0.0, 'max': 0.0}, {'current': 3293.718, 'min': 0.0, 'max': 0.0}, {'current': 3293.718, 'min': 0.0, 'max': 0.0}, {'current': 3293.718, 'min': 0.0, 'max': 0.0}, {'current': 3293.718, 'min': 0.0, 'max': 0.0}, {'current': 3293.718, 'min': 0.0, 'max': 0.0}, {'current': 3293.718, 'min': 0.0, 'max': 0.0}, {'current': 3293.718, 'min': 0.0, 'max': 0.0}, {'current': 3293.718, 'min': 0.0, 'max': 0.0}, {'current': 3293.718, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 1006.853931427002, 'used': 15.109333038330078}, 'gpu': 'NVIDIA GeForce RTX 3050 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3050 Laptop GPU', 'memory_total': 4294967296}], 'memory': {'total': 13.501205444335938}}
+2024-04-12 15:07:27,116 INFO    HandlerThread:28086 [system_monitor.py:probe():182] Finished collecting system info
+2024-04-12 15:07:27,116 INFO    HandlerThread:28086 [system_monitor.py:probe():185] Publishing system info
+2024-04-12 15:07:27,116 DEBUG   HandlerThread:28086 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2024-04-12 15:07:27,117 DEBUG   HandlerThread:28086 [system_info.py:_save_pip():67] Saving pip packages done
+2024-04-12 15:07:27,117 DEBUG   HandlerThread:28086 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2024-04-12 15:07:27,544 INFO    Thread-13 :28086 [dir_watcher.py:_on_file_created():275] file/dir created: /home/kayla/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240412_150724-q6i2cqcl/files/conda-environment.yaml
+2024-04-12 15:07:27,548 INFO    Thread-13 :28086 [dir_watcher.py:_on_file_created():275] file/dir created: /home/kayla/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240412_150724-q6i2cqcl/files/requirements.txt
+2024-04-12 15:07:29,091 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-12 15:07:29,091 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-12 15:07:29,189 DEBUG   HandlerThread:28086 [system_info.py:_save_conda():86] Saving conda packages done
+2024-04-12 15:07:29,190 INFO    HandlerThread:28086 [system_monitor.py:probe():187] Finished publishing system info
+2024-04-12 15:07:29,192 DEBUG   SenderThread:28086 [sender.py:send():334] send: files
+2024-04-12 15:07:29,192 INFO    SenderThread:28086 [sender.py:_save_file():1319] saving file wandb-metadata.json with policy now
+2024-04-12 15:07:29,199 DEBUG   SenderThread:28086 [sender.py:send():334] send: telemetry
+2024-04-12 15:07:29,201 DEBUG   SenderThread:28086 [sender.py:send():334] send: config
+2024-04-12 15:07:29,202 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: stop_status
+2024-04-12 15:07:29,202 DEBUG   SenderThread:28086 [sender.py:send_request():361] send_request: stop_status
+2024-04-12 15:07:29,328 DEBUG   SenderThread:28086 [sender.py:send():334] send: config
+2024-04-12 15:07:29,545 INFO    Thread-13 :28086 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/kayla/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240412_150724-q6i2cqcl/files/conda-environment.yaml
+2024-04-12 15:07:29,545 INFO    Thread-13 :28086 [dir_watcher.py:_on_file_created():275] file/dir created: /home/kayla/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240412_150724-q6i2cqcl/files/wandb-metadata.json
+2024-04-12 15:07:29,566 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-04-12 15:07:29,566 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-04-12 15:07:29,586 DEBUG   SenderThread:28086 [sender.py:send():334] send: use_artifact
+2024-04-12 15:07:29,609 INFO    Thread-16 :28086 [upload_job.py:push():143] Uploaded file /tmp/tmp3kocycs5wandb/6vnsm427-wandb-metadata.json
+2024-04-12 15:07:30,545 INFO    Thread-13 :28086 [dir_watcher.py:_on_file_created():275] file/dir created: /home/kayla/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240412_150724-q6i2cqcl/files/output.log
+2024-04-12 15:07:30,851 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: status_report
+2024-04-12 15:07:31,567 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-12 15:07:31,567 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-12 15:07:32,051 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-04-12 15:07:32,053 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-04-12 15:07:32,546 INFO    Thread-13 :28086 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/kayla/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240412_150724-q6i2cqcl/files/output.log
+2024-04-12 15:07:34,054 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-12 15:07:34,056 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-12 15:07:34,536 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-04-12 15:07:34,538 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-04-12 15:07:35,852 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: status_report
+2024-04-12 15:07:36,539 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-12 15:07:36,540 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-12 15:07:37,030 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-04-12 15:07:37,030 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-04-12 15:07:39,030 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-12 15:07:39,031 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-12 15:07:39,519 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-04-12 15:07:39,519 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-04-12 15:07:40,853 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: status_report
+2024-04-12 15:07:41,521 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-12 15:07:41,521 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-12 15:07:42,002 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-04-12 15:07:42,003 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-04-12 15:07:44,136 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-12 15:07:44,136 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-12 15:07:44,197 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: keepalive
+2024-04-12 15:07:44,624 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-04-12 15:07:44,624 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-04-12 15:07:45,856 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: status_report
+2024-04-12 15:07:46,625 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-12 15:07:46,625 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-12 15:07:47,110 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-04-12 15:07:47,110 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-04-12 15:07:49,197 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: keepalive
+2024-04-12 15:07:49,735 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-12 15:07:49,736 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-12 15:07:50,224 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-04-12 15:07:50,225 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-04-12 15:07:50,857 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: status_report
+2024-04-12 15:07:52,225 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-12 15:07:52,225 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-12 15:07:52,732 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-04-12 15:07:52,735 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-04-12 15:07:54,198 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: keepalive
+2024-04-12 15:07:54,735 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-12 15:07:54,736 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-12 15:07:55,234 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-04-12 15:07:55,235 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-04-12 15:07:55,864 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: status_report
+2024-04-12 15:07:56,568 INFO    Thread-13 :28086 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/kayla/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240412_150724-q6i2cqcl/files/config.yaml
+2024-04-12 15:07:57,235 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-12 15:07:57,236 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-12 15:07:58,366 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-04-12 15:07:58,366 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-04-12 15:07:59,213 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: keepalive
+2024-04-12 15:08:00,367 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-12 15:08:00,367 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-12 15:08:00,856 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-04-12 15:08:00,856 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-04-12 15:08:01,042 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: status_report
+2024-04-12 15:08:02,857 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-12 15:08:02,857 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-12 15:08:03,993 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-04-12 15:08:03,998 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-04-12 15:08:04,214 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: keepalive
+2024-04-12 15:08:04,571 INFO    Thread-13 :28086 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/kayla/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240412_150724-q6i2cqcl/files/output.log
+2024-04-12 15:08:05,254 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: log_artifact
+2024-04-12 15:08:05,255 DEBUG   SenderThread:28086 [sender.py:send_request():361] send_request: log_artifact
+2024-04-12 15:08:06,011 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-12 15:08:06,012 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-12 15:08:06,512 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-04-12 15:08:06,513 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-04-12 15:08:06,573 INFO    Thread-13 :28086 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/kayla/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240412_150724-q6i2cqcl/files/output.log
+2024-04-12 15:08:07,002 INFO    Thread-19 :28086 [upload_job.py:push():98] Skipped uploading /home/kayla/.local/share/wandb/artifacts/staging/tmpts1914vi
+2024-04-12 15:08:07,003 INFO    Thread-20 :28086 [upload_job.py:push():98] Skipped uploading /home/kayla/.local/share/wandb/artifacts/staging/tmpou7ccvow
+2024-04-12 15:08:07,003 INFO    Thread-22 :28086 [upload_job.py:push():98] Skipped uploading /home/kayla/.local/share/wandb/artifacts/staging/tmpgoog1tue
+2024-04-12 15:08:07,003 INFO    Thread-23 :28086 [upload_job.py:push():98] Skipped uploading /home/kayla/.local/share/wandb/artifacts/staging/tmprakmlvth
+2024-04-12 15:08:08,117 INFO    Thread-18 :28086 [upload_job.py:push():101] Uploaded file /home/kayla/.local/share/wandb/artifacts/staging/tmphdqo73qa
+2024-04-12 15:08:08,515 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-12 15:08:08,516 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-12 15:08:09,003 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-04-12 15:08:09,004 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-04-12 15:08:09,216 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: keepalive
+2024-04-12 15:08:09,368 INFO    Thread-21 :28086 [upload_job.py:push():101] Uploaded file /home/kayla/.local/share/wandb/artifacts/staging/tmpr3oiggo7
+2024-04-12 15:08:10,182 INFO    SenderThread:28086 [sender.py:send_request_log_artifact():1379] logged artifact random_forest_export - {'id': 'QXJ0aWZhY3Q6Nzk0NTM0Nzkz', 'digest': '64479b973f490e33110b3f28f001da79', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE2MjEwODM1MA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Nzk0NTMzOTUy', 'versionIndex': 2}}, 'version': 'latest'}
+2024-04-12 15:08:10,182 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: status_report
+2024-04-12 15:08:10,712 DEBUG   SenderThread:28086 [sender.py:send_request():361] send_request: summary_record
+2024-04-12 15:08:10,715 INFO    SenderThread:28086 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-04-12 15:08:10,715 DEBUG   SenderThread:28086 [sender.py:send_request():361] send_request: summary_record
+2024-04-12 15:08:11,005 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-12 15:08:11,005 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2024-04-12 15:08:11,043 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: partial_history
+2024-04-12 15:08:11,501 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-04-12 15:08:11,501 ERROR   gpu       :28086 [interfaces.py:monitor():129] Failed to sample metric: No data
+2024-04-12 15:08:11,576 INFO    Thread-13 :28086 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/kayla/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240412_150724-q6i2cqcl/files/wandb-summary.json
+2024-04-12 15:08:11,576 INFO    Thread-13 :28086 [dir_watcher.py:_on_file_created():275] file/dir created: /home/kayla/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240412_150724-q6i2cqcl/files/media/images/feature_importance_0_30f4d771c066344578e1.png
+2024-04-12 15:08:11,576 INFO    Thread-13 :28086 [dir_watcher.py:_on_file_created():275] file/dir created: /home/kayla/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240412_150724-q6i2cqcl/files/media
+2024-04-12 15:08:11,576 INFO    Thread-13 :28086 [dir_watcher.py:_on_file_created():275] file/dir created: /home/kayla/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240412_150724-q6i2cqcl/files/media/images
+2024-04-12 15:08:11,610 INFO    SenderThread:28086 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-04-12 15:08:11,610 DEBUG   SenderThread:28086 [sender.py:send():334] send: files
+2024-04-12 15:08:11,610 INFO    SenderThread:28086 [sender.py:_save_file():1319] saving file media/images/feature_importance_0_30f4d771c066344578e1.png with policy now
+2024-04-12 15:08:11,611 DEBUG   SenderThread:28086 [sender.py:send():334] send: history
+2024-04-12 15:08:11,611 DEBUG   SenderThread:28086 [sender.py:send_request():361] send_request: summary_record
+2024-04-12 15:08:11,612 INFO    SenderThread:28086 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-04-12 15:08:11,612 DEBUG   SenderThread:28086 [sender.py:send():334] send: exit
+2024-04-12 15:08:11,612 INFO    SenderThread:28086 [sender.py:send_exit():557] handling exit code: 0
+2024-04-12 15:08:11,612 INFO    SenderThread:28086 [sender.py:send_exit():559] handling runtime: 45
+2024-04-12 15:08:11,613 INFO    SenderThread:28086 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-04-12 15:08:11,613 INFO    SenderThread:28086 [sender.py:send_exit():565] send defer
+2024-04-12 15:08:11,613 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: defer
+2024-04-12 15:08:11,613 INFO    HandlerThread:28086 [handler.py:handle_request_defer():170] handle defer: 0
+2024-04-12 15:08:11,614 DEBUG   SenderThread:28086 [sender.py:send_request():361] send_request: defer
+2024-04-12 15:08:11,614 INFO    SenderThread:28086 [sender.py:send_request_defer():581] handle sender defer: 0
+2024-04-12 15:08:11,614 INFO    SenderThread:28086 [sender.py:transition_state():585] send defer: 1
+2024-04-12 15:08:11,614 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: defer
+2024-04-12 15:08:11,614 INFO    HandlerThread:28086 [handler.py:handle_request_defer():170] handle defer: 1
+2024-04-12 15:08:11,615 DEBUG   SenderThread:28086 [sender.py:send_request():361] send_request: defer
+2024-04-12 15:08:11,615 INFO    SenderThread:28086 [sender.py:send_request_defer():581] handle sender defer: 1
+2024-04-12 15:08:11,615 INFO    SenderThread:28086 [sender.py:transition_state():585] send defer: 2
+2024-04-12 15:08:11,615 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: defer
+2024-04-12 15:08:11,615 INFO    HandlerThread:28086 [handler.py:handle_request_defer():170] handle defer: 2
+2024-04-12 15:08:11,616 INFO    HandlerThread:28086 [system_monitor.py:finish():161] Stopping system monitor
+2024-04-12 15:08:11,618 DEBUG   SystemMonitor:28086 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2024-04-12 15:08:11,619 DEBUG   SystemMonitor:28086 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2024-04-12 15:08:11,620 DEBUG   SystemMonitor:28086 [system_monitor.py:_start():141] Publishing last batch of metrics
+2024-04-12 15:08:11,620 INFO    HandlerThread:28086 [interfaces.py:finish():175] Joined cpu
+2024-04-12 15:08:11,620 INFO    HandlerThread:28086 [interfaces.py:finish():175] Joined disk
+2024-04-12 15:08:11,625 ERROR   gpu       :28086 [interfaces.py:aggregate():146] Failed to serialize metric: division by zero
+2024-04-12 15:08:11,625 INFO    HandlerThread:28086 [interfaces.py:finish():175] Joined gpu
+2024-04-12 15:08:11,626 INFO    HandlerThread:28086 [interfaces.py:finish():175] Joined memory
+2024-04-12 15:08:11,626 INFO    HandlerThread:28086 [interfaces.py:finish():175] Joined network
+2024-04-12 15:08:11,626 DEBUG   SenderThread:28086 [sender.py:send_request():361] send_request: defer
+2024-04-12 15:08:11,626 INFO    SenderThread:28086 [sender.py:send_request_defer():581] handle sender defer: 2
+2024-04-12 15:08:11,626 INFO    SenderThread:28086 [sender.py:transition_state():585] send defer: 3
+2024-04-12 15:08:11,627 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: defer
+2024-04-12 15:08:11,627 INFO    HandlerThread:28086 [handler.py:handle_request_defer():170] handle defer: 3
+2024-04-12 15:08:11,627 DEBUG   SenderThread:28086 [sender.py:send():334] send: stats
+2024-04-12 15:08:11,628 DEBUG   SenderThread:28086 [sender.py:send_request():361] send_request: defer
+2024-04-12 15:08:11,628 INFO    SenderThread:28086 [sender.py:send_request_defer():581] handle sender defer: 3
+2024-04-12 15:08:11,628 INFO    SenderThread:28086 [sender.py:transition_state():585] send defer: 4
+2024-04-12 15:08:11,628 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: defer
+2024-04-12 15:08:11,628 INFO    HandlerThread:28086 [handler.py:handle_request_defer():170] handle defer: 4
+2024-04-12 15:08:11,629 DEBUG   SenderThread:28086 [sender.py:send_request():361] send_request: defer
+2024-04-12 15:08:11,629 INFO    SenderThread:28086 [sender.py:send_request_defer():581] handle sender defer: 4
+2024-04-12 15:08:11,629 INFO    SenderThread:28086 [sender.py:transition_state():585] send defer: 5
+2024-04-12 15:08:11,629 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: defer
+2024-04-12 15:08:11,629 INFO    HandlerThread:28086 [handler.py:handle_request_defer():170] handle defer: 5
+2024-04-12 15:08:11,630 DEBUG   SenderThread:28086 [sender.py:send():334] send: summary
+2024-04-12 15:08:11,630 INFO    SenderThread:28086 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-04-12 15:08:11,630 DEBUG   SenderThread:28086 [sender.py:send_request():361] send_request: defer
+2024-04-12 15:08:11,630 INFO    SenderThread:28086 [sender.py:send_request_defer():581] handle sender defer: 5
+2024-04-12 15:08:11,630 INFO    SenderThread:28086 [sender.py:transition_state():585] send defer: 6
+2024-04-12 15:08:11,630 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: defer
+2024-04-12 15:08:11,630 INFO    HandlerThread:28086 [handler.py:handle_request_defer():170] handle defer: 6
+2024-04-12 15:08:11,631 DEBUG   SenderThread:28086 [sender.py:send_request():361] send_request: defer
+2024-04-12 15:08:11,631 INFO    SenderThread:28086 [sender.py:send_request_defer():581] handle sender defer: 6
+2024-04-12 15:08:11,631 INFO    SenderThread:28086 [sender.py:transition_state():585] send defer: 7
+2024-04-12 15:08:11,631 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: status_report
+2024-04-12 15:08:11,631 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: defer
+2024-04-12 15:08:11,631 INFO    HandlerThread:28086 [handler.py:handle_request_defer():170] handle defer: 7
+2024-04-12 15:08:11,632 DEBUG   SenderThread:28086 [sender.py:send_request():361] send_request: defer
+2024-04-12 15:08:11,632 INFO    SenderThread:28086 [sender.py:send_request_defer():581] handle sender defer: 7
+2024-04-12 15:08:11,903 INFO    SenderThread:28086 [sender.py:transition_state():585] send defer: 8
+2024-04-12 15:08:11,903 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: defer
+2024-04-12 15:08:11,903 INFO    HandlerThread:28086 [handler.py:handle_request_defer():170] handle defer: 8
+2024-04-12 15:08:11,904 DEBUG   SenderThread:28086 [sender.py:send_request():361] send_request: defer
+2024-04-12 15:08:11,904 INFO    SenderThread:28086 [sender.py:send_request_defer():581] handle sender defer: 8
+2024-04-12 15:08:11,952 INFO    Thread-24 :28086 [upload_job.py:push():143] Uploaded file /tmp/tmp3kocycs5wandb/iv1ifklk-media/images/feature_importance_0_30f4d771c066344578e1.png
+2024-04-12 15:08:12,049 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: poll_exit
+2024-04-12 15:08:12,339 INFO    Thread-25 :28086 [upload_job.py:push():143] Uploaded file /tmp/tmp3kocycs5wandb/zboeo1aa-media/images/feature_importance_0_30f4d771c066344578e1.png
+2024-04-12 15:08:12,577 INFO    Thread-13 :28086 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/kayla/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240412_150724-q6i2cqcl/files/wandb-summary.json
+2024-04-12 15:08:12,578 INFO    Thread-13 :28086 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/kayla/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240412_150724-q6i2cqcl/files/output.log
+2024-04-12 15:08:12,760 INFO    SenderThread:28086 [sender.py:transition_state():585] send defer: 9
+2024-04-12 15:08:12,760 DEBUG   SenderThread:28086 [sender.py:send_request():361] send_request: poll_exit
+2024-04-12 15:08:12,761 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: defer
+2024-04-12 15:08:12,761 INFO    HandlerThread:28086 [handler.py:handle_request_defer():170] handle defer: 9
+2024-04-12 15:08:12,761 DEBUG   SenderThread:28086 [sender.py:send():334] send: artifact
+2024-04-12 15:08:13,050 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: poll_exit
+2024-04-12 15:08:13,094 INFO    SenderThread:28086 [sender.py:send_artifact():1415] sent artifact job-https___github.com_kaylacarriger_Project-Build-an-ML-Pipeline-Starter.git_src_train_random_forest_run.py - {'id': 'QXJ0aWZhY3Q6Nzk0NTMyODQz', 'digest': 'cf001518f5ba3dbe7211bb60d1e0cc61', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'job-https___github.com_kaylacarriger_Project-Build-an-ML-Pipeline-Starter.git_src_train_random_forest_run.py', 'alias': 'v1'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE1NTkxMjg0Nw==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Nzk0NTMyODQz', 'versionIndex': 1}}, 'version': 'v1'}
+2024-04-12 15:08:13,095 DEBUG   SenderThread:28086 [sender.py:send_request():361] send_request: defer
+2024-04-12 15:08:13,095 INFO    SenderThread:28086 [sender.py:send_request_defer():581] handle sender defer: 9
+2024-04-12 15:08:13,095 INFO    SenderThread:28086 [dir_watcher.py:finish():362] shutting down directory watcher
+2024-04-12 15:08:13,579 INFO    SenderThread:28086 [dir_watcher.py:finish():392] scan: /home/kayla/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240412_150724-q6i2cqcl/files
+2024-04-12 15:08:13,579 INFO    SenderThread:28086 [dir_watcher.py:finish():406] scan save: /home/kayla/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240412_150724-q6i2cqcl/files/wandb-summary.json wandb-summary.json
+2024-04-12 15:08:13,579 INFO    SenderThread:28086 [dir_watcher.py:finish():406] scan save: /home/kayla/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240412_150724-q6i2cqcl/files/requirements.txt requirements.txt
+2024-04-12 15:08:13,579 INFO    SenderThread:28086 [dir_watcher.py:finish():406] scan save: /home/kayla/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240412_150724-q6i2cqcl/files/config.yaml config.yaml
+2024-04-12 15:08:13,583 INFO    SenderThread:28086 [dir_watcher.py:finish():406] scan save: /home/kayla/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240412_150724-q6i2cqcl/files/conda-environment.yaml conda-environment.yaml
+2024-04-12 15:08:13,589 INFO    SenderThread:28086 [dir_watcher.py:finish():406] scan save: /home/kayla/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240412_150724-q6i2cqcl/files/wandb-metadata.json wandb-metadata.json
+2024-04-12 15:08:13,590 INFO    SenderThread:28086 [dir_watcher.py:finish():406] scan save: /home/kayla/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240412_150724-q6i2cqcl/files/output.log output.log
+2024-04-12 15:08:13,597 INFO    SenderThread:28086 [dir_watcher.py:finish():406] scan save: /home/kayla/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240412_150724-q6i2cqcl/files/media/images/feature_importance_0_30f4d771c066344578e1.png media/images/feature_importance_0_30f4d771c066344578e1.png
+2024-04-12 15:08:13,597 INFO    SenderThread:28086 [sender.py:transition_state():585] send defer: 10
+2024-04-12 15:08:13,597 DEBUG   SenderThread:28086 [sender.py:send_request():361] send_request: poll_exit
+2024-04-12 15:08:13,598 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: defer
+2024-04-12 15:08:13,598 INFO    HandlerThread:28086 [handler.py:handle_request_defer():170] handle defer: 10
+2024-04-12 15:08:13,600 DEBUG   SenderThread:28086 [sender.py:send_request():361] send_request: defer
+2024-04-12 15:08:13,600 INFO    SenderThread:28086 [sender.py:send_request_defer():581] handle sender defer: 10
+2024-04-12 15:08:13,600 INFO    SenderThread:28086 [file_pusher.py:finish():160] shutting down file pusher
+2024-04-12 15:08:13,852 INFO    Thread-26 :28086 [upload_job.py:push():143] Uploaded file /home/kayla/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240412_150724-q6i2cqcl/files/wandb-summary.json
+2024-04-12 15:08:13,914 INFO    Thread-28 :28086 [upload_job.py:push():143] Uploaded file /home/kayla/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240412_150724-q6i2cqcl/files/config.yaml
+2024-04-12 15:08:13,970 INFO    Thread-29 :28086 [upload_job.py:push():143] Uploaded file /home/kayla/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240412_150724-q6i2cqcl/files/conda-environment.yaml
+2024-04-12 15:08:13,979 INFO    Thread-30 :28086 [upload_job.py:push():143] Uploaded file /home/kayla/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240412_150724-q6i2cqcl/files/output.log
+2024-04-12 15:08:14,002 INFO    Thread-27 :28086 [upload_job.py:push():143] Uploaded file /home/kayla/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240412_150724-q6i2cqcl/files/requirements.txt
+2024-04-12 15:08:14,052 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: poll_exit
+2024-04-12 15:08:14,053 DEBUG   SenderThread:28086 [sender.py:send_request():361] send_request: poll_exit
+2024-04-12 15:08:14,204 INFO    Thread-12 :28086 [sender.py:transition_state():585] send defer: 11
+2024-04-12 15:08:14,205 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: defer
+2024-04-12 15:08:14,205 INFO    HandlerThread:28086 [handler.py:handle_request_defer():170] handle defer: 11
+2024-04-12 15:08:14,206 DEBUG   SenderThread:28086 [sender.py:send_request():361] send_request: defer
+2024-04-12 15:08:14,206 INFO    SenderThread:28086 [sender.py:send_request_defer():581] handle sender defer: 11
+2024-04-12 15:08:14,206 INFO    SenderThread:28086 [file_pusher.py:join():165] waiting for file pusher
+2024-04-12 15:08:14,206 INFO    SenderThread:28086 [sender.py:transition_state():585] send defer: 12
+2024-04-12 15:08:14,206 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: defer
+2024-04-12 15:08:14,206 INFO    HandlerThread:28086 [handler.py:handle_request_defer():170] handle defer: 12
+2024-04-12 15:08:14,207 DEBUG   SenderThread:28086 [sender.py:send_request():361] send_request: defer
+2024-04-12 15:08:14,207 INFO    SenderThread:28086 [sender.py:send_request_defer():581] handle sender defer: 12
+2024-04-12 15:08:14,260 INFO    SenderThread:28086 [sender.py:transition_state():585] send defer: 13
+2024-04-12 15:08:14,260 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: defer
+2024-04-12 15:08:14,260 INFO    HandlerThread:28086 [handler.py:handle_request_defer():170] handle defer: 13
+2024-04-12 15:08:14,261 DEBUG   SenderThread:28086 [sender.py:send_request():361] send_request: defer
+2024-04-12 15:08:14,261 INFO    SenderThread:28086 [sender.py:send_request_defer():581] handle sender defer: 13
+2024-04-12 15:08:14,261 INFO    SenderThread:28086 [sender.py:transition_state():585] send defer: 14
+2024-04-12 15:08:14,261 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: defer
+2024-04-12 15:08:14,261 INFO    HandlerThread:28086 [handler.py:handle_request_defer():170] handle defer: 14
+2024-04-12 15:08:14,262 DEBUG   SenderThread:28086 [sender.py:send():334] send: final
+2024-04-12 15:08:14,262 DEBUG   SenderThread:28086 [sender.py:send():334] send: footer
+2024-04-12 15:08:14,262 DEBUG   SenderThread:28086 [sender.py:send_request():361] send_request: defer
+2024-04-12 15:08:14,262 INFO    SenderThread:28086 [sender.py:send_request_defer():581] handle sender defer: 14
+2024-04-12 15:08:14,263 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: poll_exit
+2024-04-12 15:08:14,264 DEBUG   SenderThread:28086 [sender.py:send_request():361] send_request: poll_exit
+2024-04-12 15:08:14,264 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: poll_exit
+2024-04-12 15:08:14,265 DEBUG   SenderThread:28086 [sender.py:send_request():361] send_request: poll_exit
+2024-04-12 15:08:14,266 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: server_info
+2024-04-12 15:08:14,267 DEBUG   SenderThread:28086 [sender.py:send_request():361] send_request: server_info
+2024-04-12 15:08:14,270 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: get_summary
+2024-04-12 15:08:14,270 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: sampled_history
+2024-04-12 15:08:14,357 INFO    MainThread:28086 [wandb_run.py:_footer_history_summary_info():3427] rendering history
+2024-04-12 15:08:14,357 INFO    MainThread:28086 [wandb_run.py:_footer_history_summary_info():3459] rendering summary
+2024-04-12 15:08:14,357 INFO    MainThread:28086 [wandb_run.py:_footer_sync_info():3383] logging synced files
+2024-04-12 15:08:14,358 DEBUG   HandlerThread:28086 [handler.py:handle_request():144] handle_request: shutdown
+2024-04-12 15:08:14,358 INFO    HandlerThread:28086 [handler.py:finish():841] shutting down handler
+2024-04-12 15:08:15,267 INFO    WriterThread:28086 [datastore.py:close():299] close: /home/kayla/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240412_150724-q6i2cqcl/run-q6i2cqcl.wandb
+2024-04-12 15:08:15,357 INFO    SenderThread:28086 [sender.py:finish():1491] shutting down sender
+2024-04-12 15:08:15,358 INFO    SenderThread:28086 [file_pusher.py:finish():160] shutting down file pusher
+2024-04-12 15:08:15,358 INFO    SenderThread:28086 [file_pusher.py:join():165] waiting for file pusher

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kayla/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d6f2d59842a847919ddda4c973fa05f7/artifacts
+end_time: 1712344001033
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d6f2d59842a847919ddda4c973fa05f7
+run_name: loud-asp-21
+run_uuid: d6f2d59842a847919ddda4c973fa05f7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712343992789
+status: 3
+tags: []
+user_id: kayla

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kayla/Project-Build-an-ML-Pipeline-Starter/mlruns/0/df2c8e593a1e4aa585d906209f72e45e/artifacts
+end_time: 1712958506052
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: df2c8e593a1e4aa585d906209f72e45e
+run_name: treasured-cod-927
+run_uuid: df2c8e593a1e4aa585d906209f72e45e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712958476802
+status: 4
+tags: []
+user_id: kayla

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kayla/Project-Build-an-ML-Pipeline-Starter/mlruns/0/5f4daf54e16d42bca7c9c0d387b003fe/artifacts
+end_time: 1712958737010
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5f4daf54e16d42bca7c9c0d387b003fe
+run_name: enthused-whale-669
+run_uuid: 5f4daf54e16d42bca7c9c0d387b003fe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712958695994
+status: 3
+tags: []
+user_id: kayla

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kayla/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d8af3737985f407aa6abf5d5418a5306/artifacts
+end_time: 1712956785739
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d8af3737985f407aa6abf5d5418a5306
+run_name: dazzling-bass-68
+run_uuid: d8af3737985f407aa6abf5d5418a5306
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712956782595
+status: 4
+tags: []
+user_id: kayla

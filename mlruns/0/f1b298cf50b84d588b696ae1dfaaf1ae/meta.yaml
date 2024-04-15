@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kayla/Project-Build-an-ML-Pipeline-Starter/mlruns/0/f1b298cf50b84d588b696ae1dfaaf1ae/artifacts
+end_time: 1712173858106
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f1b298cf50b84d588b696ae1dfaaf1ae
+run_name: stately-doe-437
+run_uuid: f1b298cf50b84d588b696ae1dfaaf1ae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712173844761
+status: 4
+tags: []
+user_id: kayla

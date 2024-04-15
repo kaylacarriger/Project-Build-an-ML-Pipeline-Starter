@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kayla/Project-Build-an-ML-Pipeline-Starter/mlruns/0/bc83af468387437eb8b544c980613185/artifacts
+end_time: 1712956040722
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bc83af468387437eb8b544c980613185
+run_name: unruly-bird-453
+run_uuid: bc83af468387437eb8b544c980613185
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712956000747
+status: 3
+tags: []
+user_id: kayla

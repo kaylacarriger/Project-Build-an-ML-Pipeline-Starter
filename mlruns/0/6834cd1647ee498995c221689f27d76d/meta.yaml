@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kayla/Project-Build-an-ML-Pipeline-Starter/mlruns/0/6834cd1647ee498995c221689f27d76d/artifacts
+end_time: 1712170747487
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6834cd1647ee498995c221689f27d76d
+run_name: brawny-goat-131
+run_uuid: 6834cd1647ee498995c221689f27d76d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712170737273
+status: 4
+tags: []
+user_id: kayla

@@ -1,0 +1,3 @@
+- main.steps='download,basic_cleaning'
+- modeling.random_forest.n_estimators=10
+- etl.min_price=50

@@ -1,0 +1,39 @@
+2024-03-30 09:48:25,334 INFO    MainThread:10496 [wandb_setup.py:_flush():68] Configure stats pid to 10496
+2024-03-30 09:48:25,334 INFO    MainThread:10496 [wandb_setup.py:_flush():68] Loading settings from /home/kayla/.config/wandb/settings
+2024-03-30 09:48:25,334 INFO    MainThread:10496 [wandb_setup.py:_flush():68] Loading settings from /home/kayla/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/settings
+2024-03-30 09:48:25,334 INFO    MainThread:10496 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2024-03-30 09:48:25,334 INFO    MainThread:10496 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-03-30 09:48:25,334 INFO    MainThread:10496 [wandb_init.py:_log_setup():478] Logging user logs to /home/kayla/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240330_094825-g77n0b4r/logs/debug.log
+2024-03-30 09:48:25,334 INFO    MainThread:10496 [wandb_init.py:_log_setup():479] Logging internal logs to /home/kayla/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240330_094825-g77n0b4r/logs/debug-internal.log
+2024-03-30 09:48:25,334 INFO    MainThread:10496 [wandb_init.py:init():518] calling init triggers
+2024-03-30 09:48:25,334 INFO    MainThread:10496 [wandb_init.py:init():521] wandb.init called with sweep_config: {}
+config: {}
+2024-03-30 09:48:25,334 INFO    MainThread:10496 [wandb_init.py:init():537] re-initializing run, found existing run on stack: qcmwjrqv
+2024-03-30 09:48:25,336 INFO    MainThread:10496 [wandb_run.py:_finish():1844] finishing run kcantrell323/nyc_airbnb/qcmwjrqv
+2024-03-30 09:48:25,447 INFO    MainThread:10496 [jupyter.py:save_history():478] saving 4 cells to _session_history.ipynb
+2024-03-30 09:48:25,448 INFO    MainThread:10496 [wandb_run.py:_config_callback():1249] config_cb ('_wandb', 'session_history') code/_session_history.ipynb None
+2024-03-30 09:48:25,450 INFO    MainThread:10496 [jupyter.py:_save_ipynb():390] looking for notebook: Project-Build-an-ML-Pipeline-Starter/src/eda/eda.ipynb
+2024-03-30 09:48:25,450 INFO    MainThread:10496 [wandb_init.py:_jupyter_teardown():410] cleaning up jupyter logic
+2024-03-30 09:48:25,450 INFO    MainThread:10496 [wandb_run.py:_atexit_cleanup():2070] got exitcode: 0
+2024-03-30 09:48:25,450 INFO    MainThread:10496 [wandb_run.py:_restore():2053] restore
+2024-03-30 09:48:25,450 INFO    MainThread:10496 [wandb_run.py:_restore():2059] restore done
+2024-03-30 09:48:28,632 INFO    MainThread:10496 [wandb_run.py:_footer_history_summary_info():3427] rendering history
+2024-03-30 09:48:28,633 INFO    MainThread:10496 [wandb_run.py:_footer_history_summary_info():3459] rendering summary
+2024-03-30 09:48:28,634 INFO    MainThread:10496 [wandb_run.py:_footer_sync_info():3383] logging synced files
+2024-03-30 09:48:28,639 INFO    MainThread:10496 [wandb_init.py:init():571] starting backend
+2024-03-30 09:48:28,639 INFO    MainThread:10496 [wandb_init.py:init():575] setting up manager
+2024-03-30 09:48:28,640 INFO    MainThread:10496 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-03-30 09:48:28,641 INFO    MainThread:10496 [wandb_init.py:init():582] backend started and connected
+2024-03-30 09:48:28,642 INFO    MainThread:10496 [wandb_run.py:_label_probe_notebook():1202] probe notebook
+2024-03-30 09:48:28,642 INFO    MainThread:10496 [wandb_run.py:_label_probe_notebook():1212] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-03-30 09:48:28,642 INFO    MainThread:10496 [wandb_init.py:init():670] updated telemetry
+2024-03-30 09:48:28,651 INFO    MainThread:10496 [wandb_init.py:init():710] communicating run to backend with 60.0 second timeout
+2024-03-30 09:48:33,928 INFO    MainThread:10496 [wandb_run.py:_on_init():2121] communicating current version
+2024-03-30 09:48:33,982 INFO    MainThread:10496 [wandb_run.py:_on_init():2125] got version response upgrade_message: "wandb version 0.16.5 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-03-30 09:48:33,982 INFO    MainThread:10496 [wandb_init.py:init():758] starting run threads in backend
+2024-03-30 09:48:36,251 INFO    MainThread:10496 [wandb_run.py:_console_start():2101] atexit reg
+2024-03-30 09:48:36,251 INFO    MainThread:10496 [wandb_run.py:_redirect():1959] redirect: SettingsConsole.WRAP_RAW
+2024-03-30 09:48:36,251 INFO    MainThread:10496 [wandb_run.py:_redirect():2024] Wrapping output streams.
+2024-03-30 09:48:36,251 INFO    MainThread:10496 [wandb_run.py:_redirect():2046] Redirects installed.
+2024-03-30 09:48:36,252 INFO    MainThread:10496 [wandb_init.py:init():798] run started, returning control to user process

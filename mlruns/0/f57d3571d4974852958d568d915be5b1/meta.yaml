@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kayla/Project-Build-an-ML-Pipeline-Starter/mlruns/0/f57d3571d4974852958d568d915be5b1/artifacts
+end_time: 1712955307204
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f57d3571d4974852958d568d915be5b1
+run_name: mysterious-panda-956
+run_uuid: f57d3571d4974852958d568d915be5b1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712955273561
+status: 4
+tags: []
+user_id: kayla

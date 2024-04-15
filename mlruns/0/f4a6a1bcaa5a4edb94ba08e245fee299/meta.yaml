@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kayla/Project-Build-an-ML-Pipeline-Starter/mlruns/0/f4a6a1bcaa5a4edb94ba08e245fee299/artifacts
+end_time: 1712958626026
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f4a6a1bcaa5a4edb94ba08e245fee299
+run_name: amazing-dolphin-80
+run_uuid: f4a6a1bcaa5a4edb94ba08e245fee299
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712958596738
+status: 3
+tags: []
+user_id: kayla

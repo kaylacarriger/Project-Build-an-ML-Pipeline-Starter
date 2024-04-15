@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kayla/Project-Build-an-ML-Pipeline-Starter/mlruns/0/f8beaa96d44b45498849178bebe7894c/artifacts
+end_time: 1712954875970
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f8beaa96d44b45498849178bebe7894c
+run_name: learned-gull-754
+run_uuid: f8beaa96d44b45498849178bebe7894c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712954840392
+status: 4
+tags: []
+user_id: kayla

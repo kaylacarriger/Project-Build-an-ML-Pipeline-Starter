@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kayla/Project-Build-an-ML-Pipeline-Starter/mlruns/0/f931ec4cc8184ee2adcef7d6b51d0a96/artifacts
+end_time: 1712958196169
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f931ec4cc8184ee2adcef7d6b51d0a96
+run_name: burly-colt-914
+run_uuid: f931ec4cc8184ee2adcef7d6b51d0a96
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712958183071
+status: 4
+tags: []
+user_id: kayla

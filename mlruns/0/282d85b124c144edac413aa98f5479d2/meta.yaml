@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kayla/Project-Build-an-ML-Pipeline-Starter/mlruns/0/282d85b124c144edac413aa98f5479d2/artifacts
+end_time: 1712956899657
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 282d85b124c144edac413aa98f5479d2
+run_name: amusing-vole-610
+run_uuid: 282d85b124c144edac413aa98f5479d2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712956878013
+status: 4
+tags: []
+user_id: kayla

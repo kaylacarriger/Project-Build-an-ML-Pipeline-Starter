@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kayla/Project-Build-an-ML-Pipeline-Starter/mlruns/0/c3926d01f2f5475b99c3caed8278a36a/artifacts
+end_time: 1712956785474
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c3926d01f2f5475b99c3caed8278a36a
+run_name: amusing-quail-581
+run_uuid: c3926d01f2f5475b99c3caed8278a36a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712956784520
+status: 4
+tags: []
+user_id: kayla

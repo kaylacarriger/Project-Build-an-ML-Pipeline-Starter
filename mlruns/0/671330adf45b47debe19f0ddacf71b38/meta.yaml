@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kayla/Project-Build-an-ML-Pipeline-Starter/mlruns/0/671330adf45b47debe19f0ddacf71b38/artifacts
+end_time: 1712344033276
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 671330adf45b47debe19f0ddacf71b38
+run_name: serious-loon-180
+run_uuid: 671330adf45b47debe19f0ddacf71b38
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712344022442
+status: 4
+tags: []
+user_id: kayla

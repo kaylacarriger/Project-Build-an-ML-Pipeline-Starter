@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kayla/Project-Build-an-ML-Pipeline-Starter/mlruns/0/2ca8e687dcea4171a26da82b670a08bb/artifacts
+end_time: 1712172728675
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2ca8e687dcea4171a26da82b670a08bb
+run_name: inquisitive-bat-717
+run_uuid: 2ca8e687dcea4171a26da82b670a08bb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712172697268
+status: 3
+tags: []
+user_id: kayla

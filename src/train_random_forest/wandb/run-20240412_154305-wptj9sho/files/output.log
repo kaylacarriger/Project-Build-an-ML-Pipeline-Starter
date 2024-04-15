@@ -1,0 +1,21 @@
+2024-04-12 15:43:09,219 Minimum price: 10, Maximum price: 350
+2024-04-12 15:43:09,230 Preparing sklearn pipeline
+2024-04-12 15:43:09,231 Fitting
+Traceback (most recent call last):
+  File "/home/kayla/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py", line 263, in <module>
+    train_rf(args)
+  File "/home/kayla/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py", line 66, in train_rf
+    sk_pipe.fit(X_train, y_train)
+  File "/home/kayla/miniconda3/envs/mlflow-d6c04384fb9356865b6d231fc3cbd1b1b9b4863e/lib/python3.9/site-packages/sklearn/pipeline.py", line 341, in fit
+    Xt = self._fit(X, y, **fit_params_steps)
+  File "/home/kayla/miniconda3/envs/mlflow-d6c04384fb9356865b6d231fc3cbd1b1b9b4863e/lib/python3.9/site-packages/sklearn/pipeline.py", line 303, in _fit
+    X, fitted_transformer = fit_transform_one_cached(
+  File "/home/kayla/miniconda3/envs/mlflow-d6c04384fb9356865b6d231fc3cbd1b1b9b4863e/lib/python3.9/site-packages/joblib/memory.py", line 353, in __call__
+    return self.func(*args, **kwargs)
+  File "/home/kayla/miniconda3/envs/mlflow-d6c04384fb9356865b6d231fc3cbd1b1b9b4863e/lib/python3.9/site-packages/sklearn/pipeline.py", line 754, in _fit_transform_one
+    res = transformer.fit_transform(X, y, **fit_params)
+  File "/home/kayla/miniconda3/envs/mlflow-d6c04384fb9356865b6d231fc3cbd1b1b9b4863e/lib/python3.9/site-packages/sklearn/compose/_column_transformer.py", line 504, in fit_transform
+    self._validate_transformers()
+  File "/home/kayla/miniconda3/envs/mlflow-d6c04384fb9356865b6d231fc3cbd1b1b9b4863e/lib/python3.9/site-packages/sklearn/compose/_column_transformer.py", line 281, in _validate_transformers
+    names, transformers, _ = zip(*self.transformers)
+ValueError: not enough values to unpack (expected 3, got 2)

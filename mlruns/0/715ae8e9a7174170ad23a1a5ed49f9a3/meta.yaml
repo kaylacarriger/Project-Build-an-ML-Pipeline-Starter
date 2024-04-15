@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kayla/Project-Build-an-ML-Pipeline-Starter/mlruns/0/715ae8e9a7174170ad23a1a5ed49f9a3/artifacts
+end_time: 1712953404044
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 715ae8e9a7174170ad23a1a5ed49f9a3
+run_name: melodic-ant-705
+run_uuid: 715ae8e9a7174170ad23a1a5ed49f9a3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712953385599
+status: 4
+tags: []
+user_id: kayla

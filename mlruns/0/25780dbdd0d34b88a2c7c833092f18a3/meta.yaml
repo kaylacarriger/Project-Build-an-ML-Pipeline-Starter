@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kayla/Project-Build-an-ML-Pipeline-Starter/mlruns/0/25780dbdd0d34b88a2c7c833092f18a3/artifacts
+end_time: 1712958506322
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 25780dbdd0d34b88a2c7c833092f18a3
+run_name: casual-ray-470
+run_uuid: 25780dbdd0d34b88a2c7c833092f18a3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712958474779
+status: 4
+tags: []
+user_id: kayla

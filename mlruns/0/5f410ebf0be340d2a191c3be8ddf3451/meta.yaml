@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kayla/Project-Build-an-ML-Pipeline-Starter/mlruns/0/5f410ebf0be340d2a191c3be8ddf3451/artifacts
+end_time: 1712956097534
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5f410ebf0be340d2a191c3be8ddf3451
+run_name: bald-sheep-896
+run_uuid: 5f410ebf0be340d2a191c3be8ddf3451
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712956040976
+status: 3
+tags: []
+user_id: kayla

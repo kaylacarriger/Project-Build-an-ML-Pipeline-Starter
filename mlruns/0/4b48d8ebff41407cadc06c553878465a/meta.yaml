@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kayla/Project-Build-an-ML-Pipeline-Starter/mlruns/0/4b48d8ebff41407cadc06c553878465a/artifacts
+end_time: 1712958667149
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4b48d8ebff41407cadc06c553878465a
+run_name: vaunted-ray-801
+run_uuid: 4b48d8ebff41407cadc06c553878465a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712958626136
+status: 3
+tags: []
+user_id: kayla

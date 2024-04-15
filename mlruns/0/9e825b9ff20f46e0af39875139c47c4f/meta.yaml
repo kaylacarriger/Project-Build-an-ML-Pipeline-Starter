@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kayla/Project-Build-an-ML-Pipeline-Starter/mlruns/0/9e825b9ff20f46e0af39875139c47c4f/artifacts
+end_time: 1712343570124
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9e825b9ff20f46e0af39875139c47c4f
+run_name: traveling-ape-443
+run_uuid: 9e825b9ff20f46e0af39875139c47c4f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712343559618
+status: 4
+tags: []
+user_id: kayla

@@ -1,0 +1,14 @@
+Error in callback <bound method _WandbInit._pause_backend of <wandb.sdk.wandb_init._WandbInit object at 0x7f353038ae20>> (for post_run_cell), with arguments args (<ExecutionResult object at 7f353038a5b0, execution_count=2 error_before_exec=None error_in_exec=Project kcantrell323/nyc_airbnb does not contain artifact: "sample.csv:latest" info=<ExecutionInfo object at 7f353038a910, raw_cell="import wandb
+import pandas as pd
+# Note that we us.." store_history=True silent=False shell_futures=True cell_id=bba9965f-9648-403f-bc39-5df73bce9814> result=None>,),kwargs {}:
+Error in callback <bound method _WandbInit._resume_backend of <wandb.sdk.wandb_init._WandbInit object at 0x7f353038ae20>> (for pre_run_cell), with arguments args (<ExecutionInfo object at 7f35303fa6d0, raw_cell="# Drop outliers
+min_price = 10
+max_price = 350
+idx.." store_history=True silent=False shell_futures=True cell_id=1c2aff65-8a65-41d2-922b-0917ec23214d>,),kwargs {}:
+Error in callback <bound method _WandbInit._pause_backend of <wandb.sdk.wandb_init._WandbInit object at 0x7f353038ae20>> (for post_run_cell), with arguments args (<ExecutionResult object at 7f35303fa460, execution_count=3 error_before_exec=None error_in_exec=name 'df' is not defined info=<ExecutionInfo object at 7f35303fa6d0, raw_cell="# Drop outliers
+min_price = 10
+max_price = 350
+idx.." store_history=True silent=False shell_futures=True cell_id=1c2aff65-8a65-41d2-922b-0917ec23214d> result=None>,),kwargs {}:
+Error in callback <bound method _WandbInit._resume_backend of <wandb.sdk.wandb_init._WandbInit object at 0x7f353038ae20>> (for pre_run_cell), with arguments args (<ExecutionInfo object at 7f353038ae80, raw_cell="import wandb
+import pandas as pd
+# Note that we us.." store_history=True silent=False shell_futures=True cell_id=bba9965f-9648-403f-bc39-5df73bce9814>,),kwargs {}:
